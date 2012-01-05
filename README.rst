@@ -24,3 +24,16 @@ As a respondant
 ---------------
 
 #. When you open the control panel, you will be able to see a floor plan of the building with an overlay of the people that need to be rescued.
+
+Implementation
+==============
+
+Schematical is written using Flask, A Python Web Microframework loosely based on Django[1]
+
+Implementation
+==============
+
+Schematical is written using Flask, A Python Web Microframework loosely based on Django[1].
+For those with a PHP background, Flask would be the equivalent of CakePHP or Symphony.
+
+[1] http://flask.pocoo.org
