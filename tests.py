@@ -8,6 +8,7 @@ class FlaskrTestCase(unittest.TestCase):
     def setUp(self):
         schematical.app.config['TESTING'] = True
         self.app = schematical.app.test_client()
+        schematical.init_db()
 
     def test_new_update(self):
         """Test that a non-registered user can send an update
@@ -16,7 +17,7 @@ class FlaskrTestCase(unittest.TestCase):
         # Set up the variables used in the update
         condition = "HURT"
         location = "WorldBank,MC202"
-        user = "+12024928443"
+        user = "12024928443"
 
         # Create the mesage to be sent based on the defined format.
         sample_update = "!%s @%s" % (condition, location)
