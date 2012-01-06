@@ -60,4 +60,5 @@ Installation
 #. Run the server::
     python schematical.py
 
+#some issue being dealt with on the versioning
 And then navigate to http://localhost:5000
